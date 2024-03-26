@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="media">
+  <grid id="27dc6" binding="Main" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="10" bottom="0" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="243" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2368a" class="javax.swing.JLabel" binding="textfilename">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Baloo Bhai 2" size="20" style="0"/>
+          <text value="Filename"/>
+        </properties>
+      </component>
+      <component id="788fa" class="javax.swing.JButton" binding="pauseButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Baloo Bhai 2" size="22"/>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="de380" class="javax.swing.JButton" binding="playButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Baloo Bhai 2" size="22"/>
+          <text value="Play"/>
+        </properties>
+      </component>
+      <component id="56558" class="javax.swing.JButton" binding="restartButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Baloo Bhai 2" size="20"/>
+          <text value="Restart"/>
+        </properties>
+      </component>
+      <component id="c3016" class="javax.swing.JLabel" binding="status">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="HanziPen TC" size="26" style="1"/>
+          <text value="Now playing"/>
+        </properties>
+      </component>
+      <component id="999a7" class="javax.swing.JButton" binding="selectFileButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Baloo Bhai 2" size="14" style="0"/>
+          <text value="Select file"/>
+        </properties>
+      </component>
+      <component id="19f5b" class="javax.swing.JButton" binding="stopButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Stop"/>
+        </properties>
+      </component>
+      <component id="a9716" class="javax.swing.JButton" binding="a000Button" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="16" style="0"/>
+          <text value="0:00"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
